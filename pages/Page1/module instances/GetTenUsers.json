@@ -6,8 +6,18 @@
   "type": "QUERY_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
-    "inputs": {},
-    "moduleInputs": {},
+    "inputs": {
+      "input1": "asdf"
+    },
+    "moduleInputs": {
+      "arahnhfxta": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "asdf",
+        "id": "arahnhfxta",
+        "label": "input1",
+        "propertyName": "inputs.input1"
+      }
+    },
     "name": "GetTenUsers",
     "pageId": "Page1"
   }
